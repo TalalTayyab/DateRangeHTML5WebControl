@@ -38,6 +38,7 @@
     "*.sln",
     "*.md",
     "*.",
+    "bower.json",
     "README.md"
   ]
 }
