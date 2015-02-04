@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test Page</title>
+
+
+
+    <link rel="import" href="tt-daterange-template.html" />
+
+    <style>
+        label {
+            width: 150px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        div {
+            margin: 10px;
+        }
+    </style>
+
+    <script>
+        function displayValues() {
+            var display, dtEmp, date1, date2, message;
+
+            display = document.querySelector("#divDisplay");
+
+            dtEmp = document.querySelector("#dtEmp1");
+            date1 = dtEmp.getDateValueFrom();
+            date2 = dtEmp.getDateValueTo();
+
+            message = "<div>Emp1 From " + date1 + " To: " + date2 + "</div>";
+            message += " ";
+          
+            dtEmp = document.querySelector("#dtEmp2");
+            date1 = dtEmp.getDateValueFrom();
+            date2 = dtEmp.getDateValueTo();
+
+
+            message += "<div>Emp2 From " + date1 + " To: " + date2 + "</div>";
+
+            display.innerHTML = message;
+            
+        }
+    </script>
+</head>
+
+
+
+<body>
+
+    <div>
+        <label>Employment #1</label>
+        <tt-date-range id="dtEmp1">
+            <span class="labelFrom">From #1</span>
+            <span class="labelTo">To #1</span>
+        </tt-date-range>
+    </div>
+
+
+    <div>
+       <label>Employment #2</label>
+        <tt-date-range id="dtEmp2">
+            <span class="labelFrom">From #2</span>
+            <span class="labelTo">To #2</span>
+        </tt-date-range>
+    </div>
+
+    <div>
+        <button onclick="displayValues();">Display values</button>
+
+        <div id="divDisplay">
+
+        </div>
+
+    </div>
+
+</body>
+
+
+
+
+
+</html>
