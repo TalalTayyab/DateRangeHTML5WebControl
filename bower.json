@@ -1,6 +1,6 @@
 {
   "name": "tt-daterange",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/TalalTayyab/DateRangeHTML5WebControl",
   "authors": [
     "talal.tayyab <talal.tayyab@gmail.com>"
@@ -32,10 +32,12 @@
     "obj",
     "Properties",
     "DateRangeHTML5WebControl",
-    "bower.json",
+    ".bower.json",
     ".gitattributes",
     ".gitignore",
     "*.sln",
-    "*.md"
+    "*.md",
+    "*.",
+    "README.md"
   ]
 }
