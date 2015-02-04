@@ -6,7 +6,7 @@
     "talal.tayyab <talal.tayyab@gmail.com>"
   ],
   "description": "A sample HTML5 web control implementation of custom element composed of date range",
-  "main": "tt-daterange-template.html",
+  "main": "../tt-daterange-template.html",
   "moduleType": [
     "es6"
   ],
@@ -24,6 +24,18 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "*.csproj",
+    "index.html",
+    "*.config",
+    "bin",
+    "obj",
+    "Properties",
+    "DateRangeHTML5WebControl",
+    "bower.json",
+    ".gitattributes",
+    ".gitignore",
+    "*.sln",
+    "*.md"
   ]
 }
