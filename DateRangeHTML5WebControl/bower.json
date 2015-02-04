@@ -1,0 +1,29 @@
+{
+  "name": "tt-daterange",
+  "version": "0.0.1",
+  "homepage": "https://github.com/TalalTayyab/DateRangeHTML5WebControl",
+  "authors": [
+    "talal.tayyab <talal.tayyab@gmail.com>"
+  ],
+  "description": "A sample HTML5 web control implementation of custom element composed of date range",
+  "main": "tt-daterange-template.html",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "html5",
+    "web component",
+	"custom element",
+	"shadow DOM",
+	"template"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
