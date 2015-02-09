@@ -12,10 +12,11 @@
   ],
   "keywords": [
     "html5",
-    "web component",
+    "web-components",
 	"custom element",
 	"shadow DOM",
-	"template"
+    "template",
+    "web component"
   ],
   "license": "MIT",
   "private": false,
